@@ -1,0 +1,115 @@
+#center,#down,#lower {
+    margin:20px
+}
+/*seccion superior*/
+#top,#up {
+    display: flex;
+    background-color: #1F2937;
+}
+/*contenido*/
+#top {
+    gap: 240px;
+}
+#top .Header {
+    justify-content:left;
+    color:#F9FAF8;
+    font-size: 12px;
+}
+#top .links {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+#top .links a {
+    text-align: flex-end;
+    color: #F9FAF8;
+}
+/*seccion media superior*/
+#up .text   {
+    flex:1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#up .text .Title {
+    font-size: 25px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+#up .text .subtext {
+    font-size: 16px;
+    color: #777;
+}
+#up .text .button1 button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border-color: none;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+}
+#up .imag {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#up .imag img {
+    width: 360px;
+    height: 160px;
+    text-align: center;
+}
+/*central seccion*/
+#center .Heading {
+    text-align: center;
+}
+#center .container {
+    display:flex;
+    gap:15px;
+}
+#center .container div {
+    border:4px solid #3882F6;
+    width: 120px;
+    height: 100px;
+    flex:1;
+    border-radius: 10px;
+}
+#center .addtext {
+    display:flex;
+    text-align: center;
+}
+/*seccion media baja*/
+#down {
+    background-color: #E5E7EB;
+    height: 200px;
+    width: 600px;
+}
+#down .inspiring {
+    justify-self: center;
+    text-align: center;
+    padding: 35px;
+}
+#down .cite {
+    justify-content: flex-end;
+    text-align: end;
+}
+#lower {
+    justify-self: center;
+
+}
+#lower .promotion {
+    background-color: #3882F6;
+    width: 400px;
+    height: 100px;
+    text-align: flex-start;
+    justify-content: center;
+}
+#lower .button2 {
+    text-align:right;
+    justify-content: center;
+    
+}
+#lower .button2 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: white solid;
+}
